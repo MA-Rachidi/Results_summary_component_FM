@@ -83,5 +83,13 @@
   color: white;
   border: none;
   border-radius: 30px;
+  background: hsl(224, 30%, 27%);
+}
+
+.right button:hover {
+  cursor: pointer;
+}
+
+.right button:active {
   background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
 }
