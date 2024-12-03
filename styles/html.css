@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "HankenGrotesk";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  width: 42%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+  box-shadow: 10px 15px 40px hsla(241, 81%, 54%, 10%);
+  border-radius: 25px;
+}
+
+p {
+  font-size: 0.85rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

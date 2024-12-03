@@ -1,0 +1,55 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 35px 50px;
+  gap: 30px;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+  border-radius: 25px;
+}
+
+.left h3 {
+  color: hsla(221, 100%, 96%, 70%);
+}
+
+.cercle {
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  width: 175px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
+  border-radius: 50%;
+}
+
+#big {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+#_100 {
+  font-size: 0.9rem;
+  color: hsla(221, 100%, 96%, 50%);
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.comment h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.comment p {
+  text-align: center;
+  color: hsla(221, 100%, 96%, 70%);
+}
