@@ -17,8 +17,8 @@
 .cercle {
   display: flex;
   flex-direction: column;
-  height: 175px;
-  width: 175px;
+  height: 9.95rem;
+  width: 9.95rem;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
