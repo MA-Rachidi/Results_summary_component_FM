@@ -13,8 +13,7 @@
 
 .wrapper {
   display: flex;
-  /* flex-direction: column; */
-  width: 42%;
+  width: 36rem;
   justify-content: center;
   margin: auto;
   margin-top: 150px;
